@@ -19,7 +19,6 @@ ax<sup>2</sup> + bx + c = 0, a &ne; 0
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Копіювання тексту</title>
 </head>
 <body>
     <pre><code>python3 interactive.py</code></pre>
@@ -35,7 +34,6 @@ ax<sup>2</sup> + bx + c = 0, a &ne; 0
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Копіювання тексту</title>
 </head>
 <body>
     <pre><code>python non-interactive.py path/to/input.txt</code></pre>
@@ -44,5 +42,39 @@ ax<sup>2</sup> + bx + c = 0, a &ne; 0
 
 Де input.txt – файл з коефіцієнтами.
 
+#### <p style="font-style: italic;">Формат файлу для неінтерактивного режиму.</p>
+
+Файл містить три числа, розділені пробілами, з десятковою крапкою:
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <pre><code>1.0 0.0 -4.0</code></pre>
+</body>
+</html>
+
+
+Обов’язково має бути новий рядок після останнього числа.
+
+### Revert-коміт
+
+Був виконаний revert коміту fef98bce через порушення узгодженості виводу.
+
+Команда для перегляду:
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <pre><code>git log --grep="Revert"</code></pre>
+</body>
+</html>
 
 
